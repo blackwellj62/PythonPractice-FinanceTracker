@@ -29,3 +29,8 @@ else:
 
 for i in range(5):
     print("Looping...")
+
+try:
+    number = int("abc")
+except ValueError as err:
+    print("Conversion failed:", err)
