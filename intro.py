@@ -27,3 +27,5 @@ if expense["amount"] > 10:
 else:
     print("Small Expense")
 
+for i in range(5):
+    print("Looping...")
