@@ -14,3 +14,12 @@ cities.append("Lexington")
 
 print(cities)
 
+expense = {
+    "amount": 6.20,
+    "category": "food",
+    "note": "Bb"
+}
+
+print(expense["amount"])
+
+
