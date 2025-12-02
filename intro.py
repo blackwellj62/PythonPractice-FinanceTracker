@@ -22,4 +22,8 @@ expense = {
 
 print(expense["amount"])
 
+if expense["amount"] > 10:
+    print("Big Expense")
+else:
+    print("Small Expense")
 
