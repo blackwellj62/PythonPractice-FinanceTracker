@@ -13,3 +13,9 @@ def greet(name):
     print("Hello", name)
 
 greet("Joey")
+
+from math_utils import add
+
+print(add(3, 5))
+
+
