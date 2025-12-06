@@ -18,4 +18,7 @@ from math_utils import add
 
 print(add(3, 5))
 
+from string_utils import upper
+
+print(upper("serenity now"))
 
