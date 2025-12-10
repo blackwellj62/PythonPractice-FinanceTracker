@@ -34,3 +34,8 @@ try:
     number = int("abc")
 except ValueError as err:
     print("Conversion failed:", err)
+
+while True:
+    cmd = input("Enter command: ")
+    if cmd == "exit":
+        break
