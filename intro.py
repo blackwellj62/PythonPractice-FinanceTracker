@@ -1,5 +1,6 @@
 name = "Joey"
 hobby = "skateboarding"
+job = "Developer"
 
 print("My name is", name, "and I enjoy", hobby, "!"  )
 
@@ -35,7 +36,12 @@ try:
 except ValueError as err:
     print("Conversion failed:", err)
 
+print(f"My name is {name} and I am a {job}")
+
 while True:
     cmd = input("Enter command: ")
     if cmd == "exit":
         break
+
+
+
