@@ -38,6 +38,11 @@ except ValueError as err:
 
 print(f"My name is {name} and I am a {job}")
 
+total = "62.41"
+food = "pizza"
+
+print(f"Total spent on {food}: ${total}")
+
 while True:
     cmd = input("Enter command: ")
     if cmd == "exit":
